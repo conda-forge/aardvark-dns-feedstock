@@ -1,5 +1,5 @@
 context:
-  version: 1.15.0
+  version: "1.16.0"
 
 package:
   name: aardvark-dns
@@ -8,7 +8,7 @@ package:
 source:
   url: https://github.com/containers/aardvark-dns/archive/refs/tags/v${{ version }}.tar.gz
   # run “curl -sL $url | sha256sum” to update
-  sha256: 4ecc3996eeb8c579fbfe50901a2d73662441730ca4101e88983751a96b9fc010
+  sha256: 6c84a3371087d6af95407b0d3de26cdc1e720ae8cd983a9bdaec8883e2216959
 
 build:
   skip:
@@ -34,7 +34,7 @@ tests:
 about:
   homepage: https://github.com/containers/aardvark-dns
   license: Apache-2.0
-  license_file: 
+  license_file:
     - LICENSE
     - THIRDPARTY.yml
   summary: "Authoritative DNS server for A/AAAA container records"
