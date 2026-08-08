@@ -1,5 +1,5 @@
 context:
-  version: "1.16.0"
+  version: "2.1.0"
 
 package:
   name: aardvark-dns
@@ -8,7 +8,7 @@ package:
 source:
   url: https://github.com/containers/aardvark-dns/archive/refs/tags/v${{ version }}.tar.gz
   # run “curl -sL $url | sha256sum” to update
-  sha256: 6c84a3371087d6af95407b0d3de26cdc1e720ae8cd983a9bdaec8883e2216959
+  sha256: daf871488603e659b0501224cf0731ac317809b1d1701fc061cb4f6ae39a894f
 
 build:
   skip:
